@@ -33,7 +33,6 @@ a {
 }
 ol{
   list-style: none;
-  padding: 0;
   margin-bottom: 10%;
   font-size: 2em;
   display: flex;
