@@ -24,7 +24,8 @@ img {
   border-radius: 130px;
 }
 p {
-  margin: 20vh 20vw;
+  /*margin: 20vh 20vw;*/
+  text-align: center;
   font-size: 2em;
 }
 a {
@@ -54,10 +55,11 @@ div.contrast {
 }
 ul {
   list-style: none;
-  display: flex;
+  display: flex-start;
+
 }
 li {
-  margin: 0 20px;
+  font: arial;
 }
 li:hover {
   font-size: 1.2em;
@@ -83,7 +85,7 @@ li:hover {
   font-size: 25px;
   color: rgb(128,0,128);
   display: block;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -98,6 +100,11 @@ li:hover {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+a.submenu {
+  font-size: 1em;
+  color: rgb(128,0,128);
+  text-decoration: none;
 }
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
