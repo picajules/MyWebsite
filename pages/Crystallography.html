@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crystallography</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="../scripts/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+  <div id="place_holder"></div>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+      <div>
+        <!--<div align="justify" style="text-align:justify">-->
+        <h1>Crystallography</h1>
+        <h2>The Seven Crystal Systems</h2>
+        <img src="../images/Inorganic&Materials/Measurements.jpg" width="500" height="500">
+        <p>The sides and angles of a crystal are indicated in the image above.</p>
+        <ol>
+          <li><h3>Cubic</h3>
+             <img src="../images/Inorganic&Materials/Cubic_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Cubic_2.jpg" width="500" height="500">
+              The cubic crystal system has the highest symmetry, with the following parameters:
+              <br>
+              a = b = c
+              <br>
+              α = β = γ = 90°
+          </li>
+          <li><h3>Hexagonal</h3>
+             <img src="../images/Inorganic&Materials/Hexagonal_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Hexagonal_2.jpg" width="500" height="500">
+             The hexagonal crystal system has the following parameters:
+             <br>
+             a = b ≠ c
+             <br>
+             α = β = 90°, γ = 120°
+          </li>
+          <li><h3>Tetragonal</h3>
+             <img src="../images/Inorganic&Materials/Tetragonal_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Tetragonal_2.jpg" width="500" height="500">
+             The tetragonal crystal system has the following parameters:
+             <br>
+             a = b ≠ c
+             <br>
+             α = β = γ = 90°
+          </li>
+          <li><h3>Rhombohedral</h3>
+             <img src="../images/Inorganic&Materials/Rhombohedral_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Rhombohedral_2.jpg" width="500" height="500">
+             The rhombohedral crystal system has the following parameters:
+             <br>
+             a = b = c
+             <br>
+             α = β = γ ≠ 90°
+          </li>
+          <li><h3>Orthorhombic</h3>
+             <img src="../images/Inorganic&Materials/Orthorhombic_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Orthorhombic_2.jpg" width="500" height="500">
+             The orthorhombic crystal system has the following parameters:
+             <br>
+             a ≠ b ≠ c
+             <br>
+             α = β = γ = 90°
+          </li>
+          <li><h3>Monoclinic</h3>
+             <img src="../images/Inorganic&Materials/Monoclinic_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Monoclinic_2.jpg" width="500" height="500">
+             The monoclinic crystal system has the following parameters:
+             <br>
+             a ≠ b ≠ c
+             <br>
+             α = γ = 90°, β ≠ 90°
+          </li>
+          <li><h3>Triclinic</h3>
+             <img src="../images/Inorganic&Materials/Triclinic_1.jpg" width="500" height="500">
+             <img src="../images/Inorganic&Materials/Triclinic_2.jpg" width="500" height="500">
+             The triclinic crystal system has the following parameters:
+             <br>
+             a ≠ b ≠ c
+             <br>
+             α ≠ β ≠ γ
+          </li>
+        </ol>
+      </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#place_holder').load("../navigation.html");
+        });
+    </script>
+  </body>
+</html>
