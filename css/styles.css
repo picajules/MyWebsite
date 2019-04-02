@@ -18,6 +18,12 @@ h1 {
 h2 {
   color: rgb(0,200,255);
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 img {
   display: flex;
   padding: 20px;
